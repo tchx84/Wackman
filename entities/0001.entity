@@ -1,0 +1,285 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 100,
+            "luminance": 0.5,
+            "name": "Player",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 1.0,
+            "removable": false,
+            "stamina": 100,
+            "state": "idling",
+            "strength": 400,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 100
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 17,
+            "crop_x": 2,
+            "crop_y": 1,
+            "duration": 1.0,
+            "first_frame": 85,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 92,
+            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+            "rotate": 0.0,
+            "rows": 14,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 9,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "default"
+                    }
+                ],
+                "name": "destroyed"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 20,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 1.0,
+                            "first_frame": 9,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 12,
+                            "path": "assets/images/LPC Items And Effects/effects.png",
+                            "rotate": 0.0,
+                            "rows": 12,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "default"
+                    }
+                ],
+                "name": "destroying"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 2,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 51,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 58,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 2,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 102,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 109,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 2,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 85,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 92,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 1,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 68,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 75,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "moving"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 2,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 85,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 92,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 2,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 51,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 58,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 2,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 102,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 109,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 17,
+                            "crop_x": 1,
+                            "crop_y": 1,
+                            "duration": 1.0,
+                            "first_frame": 68,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 75,
+                            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+                            "rotate": 0.0,
+                            "rows": 14,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "idling"
+            }
+        ]
+    },
+    "id": 1,
+    "sound": {
+        "states": [
+            {
+                "name": "moving",
+                "sequence": {
+                    "delay": 0.0,
+                    "paths": [
+                        "assets/sounds/Pacman-clone wakka sound/pacman wakka.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            }
+        ]
+    },
+    "version": "0.6.0"
+}

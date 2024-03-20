@@ -1,0 +1,51 @@
+{
+    "game": {
+        "default": {
+            "actuators": [],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 0,
+            "luminance": 0.0,
+            "name": "Wall top right",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": false,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 17,
+            "crop_x": 1,
+            "crop_y": 1,
+            "duration": 0.0,
+            "first_frame": 178,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 178,
+            "path": "assets/images/20x20 Tileset/spr_all5_4A2.png",
+            "rotate": 0.0,
+            "rows": 14,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": []
+    },
+    "id": 4,
+    "sound": {
+        "states": []
+    },
+    "version": "0.6.0"
+}
